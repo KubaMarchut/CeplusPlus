@@ -58,6 +58,9 @@ int main ()	{
 			pc=p-c;
 			cout <<"Pole tego trojkata wynosi: "<< sqrt(p*pa*pb*pc);
 			break;
+		default:
+			cout <<"Nie ma takiej opcji"<<endl;
+			break;
 	}
 
 
